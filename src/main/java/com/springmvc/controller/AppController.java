@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import com.springmvc.model.User;
+import com.springmvc.entity.User;
 import com.springmvc.service.UserService;
  
 @RestController

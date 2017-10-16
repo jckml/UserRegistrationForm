@@ -2,15 +2,13 @@ package com.springmvc.service;
 
 import java.util.List;
 
-import com.springmvc.model.User;
+import com.springmvc.entity.User;
 
 
 
 public interface UserService {
 	
 	User findById(long id);
-	
-	User findByName(String name);
 	
 	void saveUser(User user);
 	
